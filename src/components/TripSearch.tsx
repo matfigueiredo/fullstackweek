@@ -4,6 +4,7 @@ import React from "react";
 import Input from "./Input";
 import Datepicker from "./Datepicker";
 import CurrencyInput from "react-currency-input-field";
+import Button from "./Button";
 
 const TripSearch = () => {
   return (
@@ -21,8 +22,13 @@ const TripSearch = () => {
             onChange={() => {}}
             className="w-full"
           />
-          <Input placeholder="Orçamento" />
+          <CurrencyInput
+            placeholder=" Orçamento"
+            className="border border-gray-300 rounded-lg"
+          />
         </div>
+
+        <Button>Buscar</Button>
       </div>
     </div>
   );
