@@ -1,5 +1,4 @@
 import { Trip } from ".prisma/client";
-import React from "react";
 import TripItem from "./TripItem";
 
 const RecommendedTrips = async () => {
