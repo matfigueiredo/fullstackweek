@@ -7,9 +7,9 @@ interface InputProps extends CurrencyInputProps {
 }
 
 function CurrencyInput({
-  className,
   error,
   errorMessage,
+  className,
   ...props
 }: InputProps) {
   const inputClassName = twMerge(

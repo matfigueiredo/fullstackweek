@@ -24,7 +24,7 @@ const TripSearch = () => {
           />
           <CurrencyInput
             placeholder=" Orçamento"
-            className="border border-gray-300 rounded-lg"
+            className="border border-gray-300 rounded-lg w-full font-sm"
           />
         </div>
 
